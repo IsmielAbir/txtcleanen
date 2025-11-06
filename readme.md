@@ -22,10 +22,11 @@ pip install txtcleanen
 ```
 
 ## Example
-```import txtcleanen
-
+```
+import txtcleanen
 text = "Hello 😊 <b>World!</b> Visit https://example.com now!"
 clean_text = txtcleanen(text)
 print(clean_text)
 # Output: "Hello World Visit now"
 ```
+
